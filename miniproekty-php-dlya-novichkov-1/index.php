@@ -9,7 +9,7 @@
 	<body>
 		<div id="wrapper">
 			<?php 
-			
+				include 'zas.php';
 				foreach ($arr as $text) {
 					echo $text;
 				}
